@@ -1,8 +1,16 @@
 #include <iostream>
+#include <cstring>
+
 using namespace std;
+
 int main()
 {
-    cout <<"Jeden Dwa Trzy Cztery Piec"<< endl;
+    string tab[5] = {"Jeden", "Dwa", "Trzy", "Cztery", "Piec"};
+    
+    for(int i = 0; i < 5; ++i)
+    {
+        cout << tab[i] << '\n';
+    }
     
     return  0;
 }
