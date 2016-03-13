@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+void wyswietlacz()
 {
     string tab[5] = {"Jeden", "Dwa", "Trzy", "Cztery", "Piec"};
     
@@ -11,6 +11,11 @@ int main()
     {
         cout << tab[i] << '\n';
     }
+}
+
+int main()
+{
+    wyswietlacz();
     
     return  0;
 }
