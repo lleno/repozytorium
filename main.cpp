@@ -5,9 +5,9 @@ using namespace std;
 
 void wyswietlacz()
 {
-    string tab[6] = {"Jeden", "Dwa", "Trzy", "Cztery", "Piec", "Osiem"};
+    string tab[5] = {"Jeden", "Dwa", "Trzy", "Cztery", "Piec"};
     
-    for(int i = 0; i < 6; ++i)
+    for(int i = 0; i < 5; ++i)
     {
         cout << tab[i] << '\n';
     }
